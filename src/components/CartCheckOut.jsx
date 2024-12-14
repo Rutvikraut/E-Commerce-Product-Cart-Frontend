@@ -53,7 +53,7 @@ const CartCheckOut = () => {
                   />
                   <div className="ml-4 w-48">
                     <h5 className="text-sm font-medium text-wrap">{product.name}</h5>
-                    <p className="text-sm font-semibold">Rs {product.price}</p>
+                    <p className="text-sm font-semibold">Rs <span className='text-lg'>{product.price}</span></p>
                   </div>
                   <div className="flex items-center gap-2">
                     <p className="mr-2 text-nowrap">Qty: {product.quantity}</p>
