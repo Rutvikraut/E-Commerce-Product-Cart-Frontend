@@ -23,8 +23,7 @@ const CartCheckOut = () => {
     setProductToRemove(product);
     setIsModalOpen(true);
   };
-
-  // Close modal and reset product to remove
+  
   const closeModal = () => {
     setProductToRemove(null);
     setIsModalOpen(false);
